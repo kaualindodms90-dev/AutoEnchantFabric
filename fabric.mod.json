@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "auto_enchant_fabric",
+  "version": "${version}",
+  "name": "Auto Enchant",
+  "description": "Applies normal maximum-level enchantments to held items automatically.",
+  "authors": ["Kaua + ChatGPT"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.kaua.autoenchant.AutoEnchantMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
